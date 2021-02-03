@@ -11,14 +11,17 @@
 </ul>
 
 <hr />
-<!-- 
+
 <h2>Input and Output together</h2>
 <p>Open the console to see the EventEmitter at work when you click Delete.</p>
 
-<app-input-output [item]="currentItem" (deleteRequest)="crossOffItem($event)"></app-input-output>
+<app-input-output
+  [item]="currentItem"
+  (deleteRequest)="crossOffItem($event)"
+></app-input-output>
 
-<hr>
-
+<hr />
+<!-- 
 <h2>Input and Output in the component class metadata</h2>
 <p>Open the console to see the EventEmitter at work when you click Buy.</p>
 
