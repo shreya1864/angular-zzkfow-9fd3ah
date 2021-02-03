@@ -29,19 +29,26 @@
   [clearanceItem]="lastChanceItem"
   (buyEvent)="buyClearanceItem($event)"
 ></app-in-the-metadata>
-<!--
 
-<hr>
+<hr />
 
 <h2>Aliasing Inputs and Outputs</h2>
-<p>See aliasing.component.ts for aliases and the console for the EventEmitter console logs.</p>
+<p>
+  See aliasing.component.ts for aliases and the console for the EventEmitter
+  console logs.
+</p>
 
-<app-aliasing [saveForLaterItem]="currentItem" (saveForLaterEvent)="saveForLater($event)" [wishListItem]="currentItem" (wishEvent)="addToWishList($event)"></app-aliasing>
+<app-aliasing
+  [saveForLaterItem]="currentItem"
+  (saveForLaterEvent)="saveForLater($event)"
+  [wishListItem]="currentItem"
+  (wishEvent)="addToWishList($event)"
+></app-aliasing>
 
 <h2>Wishlist:</h2>
 <ul>
   <li *ngFor="let wish of wishlist">{{wish}}</li>
-</ul> -->
+</ul>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
